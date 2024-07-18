@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'cera';
+    src: url(cera.woff), format('woff');
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+.head-title h1 {
+  font-family: cera;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #E01D5B;
+}
+
+.head-title h2 {
+    margin-left: 40px;
+    font-family: cera;
+    font-size: 40px;
+    font-weight: 700;
+    color:#481C4B;
+}
+
+.contact-message {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.message-right, .message-left {
+    flex: 1;
+    p {
+        font-family: "Jost", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.contact-input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 20px;
+}
+
+.container-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-input:focus {
+    border: 2px solid #2BB1EB;
+}
+
+.contact-input::placeholder {
+    color:#666;
+}
+
+.container-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #F6B21B, #E01D5B);
+    cursor: pointer;
+
+}
+
+.container-right img {
+    width: 400px;
+}
