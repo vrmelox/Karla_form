@@ -102,3 +102,13 @@ body {
 .container-right img {
     width: 400px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
